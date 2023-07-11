@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low Poly Wall-E Model
+* source:	https://sketchfab.com/3d-models/low-poly-wall-e-model-906fd8bf83d342efa8f2bb48438430d4
+* author:	superdrew25block (https://sketchfab.com/superdrew25block)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low Poly Wall-E Model" (https://sketchfab.com/3d-models/low-poly-wall-e-model-906fd8bf83d342efa8f2bb48438430d4) by superdrew25block (https://sketchfab.com/superdrew25block) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

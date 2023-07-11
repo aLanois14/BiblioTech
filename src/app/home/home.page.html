@@ -1,0 +1,8 @@
+<ion-content>
+	<video [ngStyle]="{'display': !videoReady ? 'none' : ''}" id="stream" #stream webkit-playsinline playsinline muted></video>
+	<ion-fab *ngIf="videoReady" vertical="bottom" horizontal="center" slot="fixed">
+		<ion-fab-button (click)="scannCover()">
+			<ion-icon name="camera"> </ion-icon>
+		</ion-fab-button>
+	</ion-fab>
+</ion-content>

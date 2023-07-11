@@ -1,0 +1,10 @@
+<ion-content>
+	<img [src]="cover">
+
+	<ion-list>
+		<ion-item (click)="scannClue(clue.question)" *ngFor="let clue of bookData.clues">
+			{{ clue.question }}
+		</ion-item>
+	</ion-list>
+</ion-content>
+

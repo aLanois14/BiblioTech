@@ -1,0 +1,13 @@
+<ion-content>
+	<ion-item><h5>Est-ce le bon livre ?</h5></ion-item>
+	<img [src]="cover">
+
+	<ion-fab vertical="bottom" horizontal="center" slot="fixed">
+		<ion-fab-button (click)="validateCover(true)">
+			<ion-label>Oui</ion-label>
+		</ion-fab-button>
+		<ion-fab-button (click)="validateCover(false)">
+			<ion-label>Non</ion-label>
+		</ion-fab-button>
+	</ion-fab>
+</ion-content>

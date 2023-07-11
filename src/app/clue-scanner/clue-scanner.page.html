@@ -1,0 +1,31 @@
+<ion-content [ngStyle]="{'border': textFound ? '10px solid green' : '' }">
+	<video
+		[ngStyle]="{'display': !videoReady ? 'none' : ''}"
+		style="z-index: 1; position: absolute;"
+		id="stream"
+		#stream
+		webkit-playsinline
+		playsinline
+		muted
+	></video>
+	<app-three geometry="box" #scenegraph style="z-index:999; position: absolute;"></app-three>
+</ion-content>
+
+<div
+	*ngIf="textFound"
+	style="
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		margin-bottom: 15px;
+	">
+	<h3 style="margin-left: 10px">{{ clue.content }}</h3>
+	<ion-button
+		(click)="copyToClipboard()"
+		fill="solid"
+		style="margin-left: 20px"
+		size="small">
+		<ion-icon name="browsers-outline"></ion-icon>
+	</ion-button>
+</div>
